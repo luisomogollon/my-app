@@ -1,0 +1,247 @@
+.firtsCard {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.textFirst {
+  width: 48%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.textFirst > h1 {
+  font-size: 56px;
+}
+.textFirst > p {
+  font-size: 24px;
+}
+.imageFirstCard {
+  object-fit: cover;
+  width: 38%;
+}
+.secondCard {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.secondCardContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 5%;
+}
+.btnCard {
+  background-color: #3ffa53;
+  color: white;
+  font-size: 26px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.cardImage {
+  object-fit: cover;
+  max-height: 300px;
+  max-width: 600px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.btnSecondCard {
+  margin-top: 5%;
+  display: flex;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 36px;
+  padding-right: 36px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btnSecondCard:hover {
+  background-color: black;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.threeCard {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #3ffa53;
+  justify-content: center;
+  gap: 15%;
+  max-height: 480px;
+}
+.threeCardContent {
+  width: 35%;
+}
+.textCardThree {
+  font-size: 48px;
+  color: white;
+  padding: 16px;
+  font-weight: bold;
+}
+.btnThreeCard {
+  margin-top: 16px;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+}
+.btnThreeCard2 {
+  margin-top: 16px;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+}
+.threeCardImage {
+  object-fit: fill;
+  width: 35%;
+}
+.fourCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.fourCardContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+.fourCardFile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnFourCard{
+  cursor: pointer;
+  padding: 16px;
+  border: none;
+  color: white;
+  background-color: #3FFA53;
+  border-radius: 10px;
+  font-size: 24px;
+  padding-left: 46px;
+  padding-right: 46px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btnFourCard:hover {
+  background-color: #008000ff;
+  color: #ffffff;
+  
+}
+
+.btnStandar {
+  padding: 16px;
+  border: none;
+  color: white;
+  background-color: #3ffa53;
+  border-radius: 10px;
+  font-size: 24px;
+  padding-left: 46px;
+  padding-right: 46px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnStandar:hover {
+  background-color: #008000ff;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease
+}
+
+
+.fiveCard {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+
+  background-size: cover;
+}
+.formFiveCard {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5%;
+}
+.inputFormBasic {
+  border: none;
+  border-radius: 10px;
+  margin: 2%;
+  height: 45px;
+  padding-left: 16px;
+}
+.sixCard {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  min-height: 600px;
+}
+.sevenCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: green;
+}
+.menuLateral {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  position: fixed;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  width: 30px;
+  top: 150px;
+  right: 0;
+}
+
+.sixCard {
+  max-width: 100%;
+  max-height: 50%;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  object-fit: fill;
+}
+
+.fiveCard {
+  background-image: url("../assets/img/Join Us.png");
+}
