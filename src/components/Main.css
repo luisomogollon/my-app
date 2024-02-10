@@ -127,8 +127,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
 }
+
 .fourCardContent {
   display: flex;
   flex-wrap: wrap;
@@ -137,18 +137,26 @@
   align-items: center;
   gap: 15%;
 }
-.fourCardFile{
+
+.fourCardFile {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
 }
-.btnFourCard{
+
+.fourCardFile:hover {
+  transform: scale(1.05);
+}
+
+.btnFourCard {
   cursor: pointer;
   padding: 16px;
   border: none;
   color: white;
-  background-color: #3FFA53;
+  background-color: #3ffa53;
   border-radius: 10px;
   font-size: 24px;
   padding-left: 46px;
@@ -160,7 +168,6 @@
 .btnFourCard:hover {
   background-color: #008000ff;
   color: #ffffff;
-  
 }
 
 .btnStandar {
@@ -179,9 +186,8 @@
 .btnStandar:hover {
   background-color: #008000ff;
   color: #ffffff;
-  transition: background-color 0.3s ease, color 0.3s ease
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 .fiveCard {
   margin-top: 5%;
@@ -218,7 +224,6 @@
   align-items: center;
   padding: 5%;
   background-color: green;
-  
 }
 .menuLateral {
   display: flex;
@@ -232,6 +237,7 @@
   width: 30px;
   top: 150px;
   right: 0;
+  cursor: pointer;
 }
 
 .sixCard {

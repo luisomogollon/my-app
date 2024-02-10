@@ -18,7 +18,7 @@ const Hero = () => {
         <img src={Pic5} alt="pic5" className="threeCardImage" />
       </div>
       <div className="fourCard">
-        <h1 style={{ fontSize: "48px", fontWeight: "bold" }}>Latest videos</h1>
+        <h1 style={{ fontSize: "48px", fontWeight: "bold",  }}>Latest videos</h1>
         <div className="fourCardContent">
           <div className="fourCardFile">
             <i
