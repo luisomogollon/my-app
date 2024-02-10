@@ -25,7 +25,6 @@ const Nav = () => {
               <h1 className="bodyNavTitle">LOREM IPSUM</h1>
               <button className="bodyNavButton">
                 <Link
-                  activeclassName="active"
                   to="whatIsNextSection"
                   spy={true}
                   smooth={true}

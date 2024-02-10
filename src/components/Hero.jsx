@@ -107,14 +107,8 @@ const Hero = () => {
         </div>
         <button className="btnFourCard">
           {" "}
-          <Link
-            activeClassName="active"
-            to="VIEWALLSection"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-          VIEW ALL
+          <Link to="VIEWALLSection" spy={true} smooth={true} duration={1000}>
+            VIEW ALL
           </Link>
         </button>
       </div>

@@ -18,14 +18,8 @@ const Header = () => {
         </span>
         <span> Lorem ipsu dolor sit amet </span>
         <span className="isJoin">
-          <Link
-            activeClass="active"
-            to="sectionId"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-           Join Now &nbsp;&nbsp;<i class="fa-solid fa-circle-play"></i>
+          <Link to="sectionId" spy={true} smooth={true} duration={1000}>
+            Join Now &nbsp;&nbsp;<i className="fa-solid fa-circle-play"></i>
           </Link>
         </span>
       </div>
@@ -34,4 +28,3 @@ const Header = () => {
 };
 
 export default Header;
-
