@@ -77,7 +77,7 @@ const App = () => {
             className="inputFormBasic"
             placeholder="Message"
             style={{ height: "120px", paddingTop: "16px" }}
-          ></textarea>
+          />
           <button
             className="btnStandar"
             style={{ maxWidth: "fit-content", margin: "2%" }}
