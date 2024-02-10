@@ -108,7 +108,7 @@ const Hero = () => {
         <button className="btnFourCard">
           {" "}
           <Link
-            activeClass="active"
+            activeClassName="active"
             to="VIEWALLSection"
             spy={true}
             smooth={true}
