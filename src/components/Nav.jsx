@@ -1,15 +1,16 @@
 import React from "react";
 import "./Nav.css"; // Importa el archivo CSS
 import { Link } from "react-scroll";
-import imagenes from "../assets/img/imagenes";
+import Pic00 from "../assets/img/Prb_Header.png";
+import Icon from "../assets/img/icon.png";
 
 const Nav = () => {
   return (
     <nav>
-      <img src={imagenes.img0} alt="prb_header" className="Navbackground" />
+      <img src={Pic00} alt="prb_header" className="Navbackground" />
       <div className="contentNav">
         <div className="headerNav">
-          <img src={imagenes.img1} alt="grab" className="iconHeadernNav" />
+          <img src={Icon} alt="grab" className="iconHeadernNav" />
           <div className="contentNavBody">
             <div className="routeNav">
               <span className="route">LOREM IPSUM</span>
