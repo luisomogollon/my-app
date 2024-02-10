@@ -6,38 +6,26 @@ import imagenes from "../assets/img/imagenes";
 const Nav = () => {
   return (
     <nav>
-      <img src={imagenes.img0} alt="prb_header" class="Navbackground" />
-      <div class="contentNav">
-        <div class="headerNav">
-          <img src={imagenes.img1} alt="grab" class="iconHeadernNav" />
-          <div class="contentNavBody">
-            <div class="routeNav">
-              <a href="" class="route">
-                LOREM IPSUM
-              </a>
-              <a href="" class="route">
-                LOREM IPSUM
-              </a>
-              <a href="" class="route">
-                LOREM IPSUM
-              </a>
-              <a href="" class="route">
-                LOREM IPSUM
-              </a>
-              <a href="" class="route">
-                LOREM IPSUM
-              </a>
-              <a href="" class="route">
-                LOREM IPSUM
-              </a>
+      <img src={imagenes.img0} alt="prb_header" className="Navbackground" />
+      <div className="contentNav">
+        <div className="headerNav">
+          <img src={imagenes.img1} alt="grab" className="iconHeadernNav" />
+          <div className="contentNavBody">
+            <div className="routeNav">
+              <span className="route">LOREM IPSUM</span>
+              <span className="route">LOREM IPSUM</span>
+              <span className="route">LOREM IPSUM</span>
+              <span className="route">LOREM IPSUM</span>
+              <span className="route">LOREM IPSUM</span>
+              <span className="route">LOREM IPSUM</span>
             </div>
-            <div class="bodyNav">
-              <h1 class="bodyNavTitle">LOREM IPSUM</h1>
-              <h1 class="bodyNavTitle2">LOREM IPSUM DOLOR &nbsp;</h1>
-              <h1 class="bodyNavTitle">LOREM IPSUM</h1>
+            <div className="bodyNav">
+              <h1 className="bodyNavTitle">LOREM IPSUM</h1>
+              <h1 className="bodyNavTitle2">LOREM IPSUM DOLOR &nbsp;</h1>
+              <h1 className="bodyNavTitle">LOREM IPSUM</h1>
               <button className="bodyNavButton">
                 <Link
-                  activeClass="active"
+                  activeclassName="active"
                   to="whatIsNextSection"
                   spy={true}
                   smooth={true}
@@ -50,29 +38,29 @@ const Nav = () => {
           </div>
         </div>
 
-        <div class="footerNav">
-          <div class="footerContenTextNav ">
+        <div className="footerNav">
+          <div className="footerContenTextNav ">
             <p>Lorem ipsum dolor sit amet, consetetur</p>
           </div>
-          <div class="footerContenTimeNav">
-            <div class="blockTime">
+          <div className="footerContenTimeNav">
+            <div className="blockTime">
               <span>170</span>
-              <span class="blockSpan">days</span>
+              <span className="blockSpan">days</span>
             </div>
-            <hr class="divider" />
-            <div class="blockTime">
+            <hr className="divider" />
+            <div className="blockTime">
               <span>13</span>
-              <span class="blockSpan">Hour</span>
+              <span className="blockSpan">Hour</span>
             </div>
-            <hr class="divider" />
-            <div class="blockTime">
+            <hr className="divider" />
+            <div className="blockTime">
               <span>39</span>
-              <span class="blockSpan">Minutes</span>
+              <span className="blockSpan">Minutes</span>
             </div>
-            <hr class="divider" />
-            <div class="blockTime">
+            <hr className="divider" />
+            <div className="blockTime">
               <span>29</span>
-              <span class="blockSpan">Seconds</span>
+              <span className="blockSpan">Seconds</span>
             </div>
           </div>
         </div>

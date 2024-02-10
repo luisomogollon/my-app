@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Pic7 from "../assets/img/Pic7.png";
 import Pic8 from "../assets/img/Pic8.png";
 import Pic9 from "../assets/img/Pic9.png";
-import Pic10 from "../assets/img/Pic10.png";
+
 
 import "./Main.css";
 
