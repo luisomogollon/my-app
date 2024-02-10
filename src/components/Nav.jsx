@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css"; // Importa el archivo CSS
+import { Link } from "react-scroll";
 import imagenes from "../assets/img/imagenes";
 
 const Nav = () => {
@@ -34,7 +35,17 @@ const Nav = () => {
               <h1 class="bodyNavTitle">LOREM IPSUM</h1>
               <h1 class="bodyNavTitle2">LOREM IPSUM DOLOR &nbsp;</h1>
               <h1 class="bodyNavTitle">LOREM IPSUM</h1>
-              <button className="bodyNavButton">WHAT IS NEXT</button>
+              <button className="bodyNavButton">
+                <Link
+                  activeClass="active"
+                  to="whatIsNextSection"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  WHAT IS NEXT
+                </Link>
+              </button>
             </div>
           </div>
         </div>

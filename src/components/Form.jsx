@@ -6,7 +6,7 @@ import Pic6 from "../assets/img/Pic6.png";
 const App = () => {
   return (
     <div>
-      <div className="fiveCard">
+      <div id="sectionId"  className="fiveCard" >
         <img
           src={Join1}
           alt="background"
@@ -18,8 +18,8 @@ const App = () => {
             maxHeight: "800px",
           }}
         />
-        <div className="formFiveCard">
-          <h1
+        <div className="formFiveCard" >
+          <h1 
             style={{
               fontSize: "56px",
               fontWeight: "bold",
@@ -29,7 +29,7 @@ const App = () => {
           >
             JOIN US
           </h1>
-          <h1
+          <h1 
             style={{
               fontSize: "16px",
               fontWeight: "bold",

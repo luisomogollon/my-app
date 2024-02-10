@@ -1,11 +1,12 @@
 import React from "react";
 import Pic5 from "../assets/img/Pic5.png";
 import Pic1 from "../assets/img/Pic1.png";
+import { Link } from "react-scroll";
 import "./Main.css";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="whatIsNextSection">
       <div className="threeCard">
         <div className="threeCardContent">
           <p className="textCardThree">
@@ -104,7 +105,18 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <button className="btnFourCard">VIEW ALL</button>
+        <button className="btnFourCard">
+          {" "}
+          <Link
+            activeClass="active"
+            to="VIEWALLSection"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+          VIEW ALL
+          </Link>
+        </button>
       </div>
     </section>
   );
