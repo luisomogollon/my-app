@@ -21,6 +21,7 @@ const Footer = () => {
         src={Icon1}
         alt="prb_header"
         style={{ objectFit: "fill", height: "120px", width: "200px" }}
+        loading="lazy"
       />
       <p style={{ fontWeight: "bold", width: "200px", textAlign: "center" }}>
         All rights reserved to Lorem Ipsum© 2022

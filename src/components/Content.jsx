@@ -14,6 +14,7 @@ const Content = () => {
             src={Pic7}
             alt="pic"
             style={{ objectFit: "fill", width: "300px", height: "400px" }}
+            loading="lazy"
           />
         </div>
         <div>
@@ -21,6 +22,7 @@ const Content = () => {
             src={Pic8}
             alt="pic"
             style={{ objectFit: "fill", width: "300px", height: "400px" }}
+            loading="lazy"
           />
         </div>
         <div>
@@ -28,6 +30,7 @@ const Content = () => {
             src={Pic9}
             alt="pic"
             style={{ objectFit: "fill", width: "300px", height: "400px" }}
+            loading="lazy"
           />
         </div>
       </div>

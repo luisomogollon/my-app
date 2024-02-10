@@ -7,10 +7,10 @@ import Icon from "../assets/img/icon.png";
 const Nav = () => {
   return (
     <nav>
-      <img src={Pic00} alt="prb_header" className="Navbackground" />
+      <img loading="eager" src={Pic00} alt="prb_header" className="Navbackground" />
       <div className="contentNav">
         <div className="headerNav">
-          <img src={Icon} alt="grab" className="iconHeadernNav" />
+          <img loading="eager" src={Icon} alt="grab" className="iconHeadernNav" />
           <div className="contentNavBody">
             <div className="routeNav">
               <span className="route">LOREM IPSUM</span>

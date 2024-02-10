@@ -15,7 +15,7 @@ const Hero = () => {
           <button className="btnThreeCard">LOREM IPSUM DOLOR SIT</button>
           <button className="btnThreeCard2">LOREM IPSUM DOLOR SIT AMET</button>
         </div>
-        <img src={Pic5} alt="pic5" className="threeCardImage" />
+        <img src={Pic5} alt="pic5" className="threeCardImage"  loading="lazy"/>
       </div>
       <div className="fourCard">
         <h1 style={{ fontSize: "48px", fontWeight: "bold" }}>Latest videos</h1>
@@ -29,6 +29,7 @@ const Hero = () => {
               src={Pic1}
               alt="file"
               style={{ objectFit: "cover", maxWidth: "250px" }}
+              loading="lazy"
             />
             <p style={{ marginTop: "5%" }}>
               Lorem ipsum dolor sit amet, consetetur
@@ -43,6 +44,7 @@ const Hero = () => {
               src={Pic1}
               alt="file"
               style={{ objectFit: "cover", maxWidth: "250px" }}
+              loading="lazy"
             />
             <p style={{ marginTop: "5%" }}>
               Lorem ipsum dolor sit amet, consetetur
@@ -57,6 +59,7 @@ const Hero = () => {
               src={Pic1}
               alt="file"
               style={{ objectFit: "cover", maxWidth: "250px" }}
+              loading="lazy"
             />
             <p style={{ marginTop: "5%" }}>
               Lorem ipsum dolor sit amet, consetetur
@@ -71,6 +74,7 @@ const Hero = () => {
               src={Pic1}
               alt="file"
               style={{ objectFit: "cover", maxWidth: "250px" }}
+              loading="lazy"
             />
             <p style={{ marginTop: "5%" }}>
               Lorem ipsum dolor sit amet, consetetur
@@ -85,6 +89,7 @@ const Hero = () => {
               src={Pic1}
               alt="file"
               style={{ objectFit: "cover", maxWidth: "250px" }}
+              loading="lazy"
             />
             <p style={{ marginTop: "5%" }}>
               Lorem ipsum dolor sit amet, consetetur
@@ -99,6 +104,7 @@ const Hero = () => {
               src={Pic1}
               alt="file"
               style={{ objectFit: "cover", maxWidth: "250px" }}
+              loading="lazy"
             />
             <p style={{ marginTop: "5%" }}>
               Lorem ipsum dolor sit amet, consetetur

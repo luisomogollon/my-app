@@ -24,7 +24,7 @@ const Main = () => {
             no sea takimata sanctus est Lorem ipsum dolor sit
           </p>
         </div>
-        <img src={Pic1} alt="pic1" className="imageFirstCard" />
+        <img loading="lazy" src={Pic1} alt="pic1" className="imageFirstCard" />
       </div>
 
       <div className="secondCard">
@@ -37,17 +37,17 @@ const Main = () => {
 
         <div className="secondCardContent">
           <div className="card">
-            <img src={Pic2} alt="pic2" className="cardImage" />
+            <img loading="lazy" src={Pic2} alt="pic2" className="cardImage" />
             <button className="btnCard">LOREM IPSUM</button>
           </div>
 
           <div className="card">
-            <img src={Pic3} alt="pic2" className="cardImage" />
+            <img loading="lazy" src={Pic3} alt="pic2" className="cardImage" />
             <button className="btnCard">LOREM IPSUM</button>
           </div>
 
           <div className="card">
-            <img src={Pic4} alt="pic2" className="cardImage" />
+            <img loading="lazy" src={Pic4} alt="pic2" className="cardImage" />
             <button className="btnCard">LOREM IPSUM</button>
           </div>
         </div>

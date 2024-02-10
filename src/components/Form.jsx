@@ -17,6 +17,7 @@ const App = () => {
             zIndex: -1,
             maxHeight: "800px",
           }}
+          loading="lazy"
         />
         <div className="formFiveCard" >
           <h1 
@@ -109,6 +110,7 @@ const App = () => {
             zIndex: -1,
             maxHeight: "600px",
           }}
+          loading="lazy"
         />
         <div style={{ width: "40%", marginLeft: "5%", marginTop: "10%" }}>
           <h1 style={{ fontSize: "56px" }}>Lorem ipsum</h1>
